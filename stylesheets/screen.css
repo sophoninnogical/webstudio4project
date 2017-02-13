@@ -1,0 +1,310 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+@import url("https://fonts.googleapis.com/css?family=Droid+Sans");
+@import url("https://fonts.googleapis.com/css?family=Athiti");
+/* line 5, ../../../../RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 19, ../sass/screen.scss */
+a {
+  text-decoration: none;
+  color: #4c4c4b;
+}
+
+/* line 23, ../sass/screen.scss */
+body {
+  overflow: hidden;
+  font-family: "Playfair Display", serif;
+}
+
+/* line 27, ../sass/screen.scss */
+.head-menu {
+  background-color: #f6f7fb;
+  width: 100%;
+  height: 49px;
+  float: right;
+  -webkit-box-shadow: -4px 18px 37px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -4px 18px 37px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: -4px 18px 37px 1px rgba(0, 0, 0, 0.75);
+  font-family: "Droid Sans", sans-serif;
+}
+
+/* line 38, ../sass/screen.scss */
+.logo {
+  width: 70px;
+  height: 100%;
+  margin-left: 20px;
+  float: left;
+}
+/* line 44, ../sass/screen.scss */
+.logo img {
+  width: 100%;
+}
+
+/* line 49, ../sass/screen.scss */
+.title-menu {
+  float: right;
+  margin-top: 12px;
+}
+
+/* line 54, ../sass/screen.scss */
+.title-menu a {
+  margin-top: 12px;
+  margin-left: 19px;
+}
+
+/* line 59, ../sass/screen.scss */
+.container {
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+}
+
+/* line 65, ../sass/screen.scss */
+.bg-container {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/-pic/1_blomman.jpg");
+  background-size: cover;
+  float: left;
+}
+
+/* line 73, ../sass/screen.scss */
+.box-item {
+  width: 412px;
+  height: 620px;
+  background: white;
+  opacity: 0.9;
+  float: left;
+  margin: 50px 140px;
+  overflow: scroll;
+  overflow-x: hidden;
+  text-align: center;
+}
+/* line 83, ../sass/screen.scss */
+.box-item h1 {
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+/* line 90, ../sass/screen.scss */
+.box-contact {
+  width: 239px;
+  height: 332px;
+  background: #dfddd6;
+  float: left;
+  margin-top: 170px;
+  text-align: center;
+  padding: 28px 45px;
+}
+/* line 99, ../sass/screen.scss */
+.box-contact .choose_festival {
+  width: 240px;
+  border-radius: 5px;
+  height: 30px;
+  float: left;
+  margin-top: 46px;
+}
+/* line 106, ../sass/screen.scss */
+.box-contact form {
+  width: 240px;
+}
+/* line 112, ../sass/screen.scss */
+.box-contact .i_txt {
+  width: 240px;
+  opacity: 1;
+  margin-top: 46px;
+  height: 40px;
+  font-size: 1em;
+}
+/* line 119, ../sass/screen.scss */
+.box-contact h1 {
+  font-size: 2em;
+}
+
+/* line 123, ../sass/screen.scss */
+.btn_contact {
+  width: 103px;
+  height: 36px;
+  background: #f6bb43;
+  border-radius: 10px;
+  border: none;
+  margin-top: 30px;
+}
+
+/* line 131, ../sass/screen.scss */
+.btn_contact :active {
+  background: #bf9134;
+}
+
+/* line 134, ../sass/screen.scss */
+.con_box {
+  text-align: center;
+}
+
+/* line 137, ../sass/screen.scss */
+.control_box {
+  position: fixed;
+  top: 20%;
+  left: 20%;
+}
+
+/* line 142, ../sass/screen.scss */
+.item-gift {
+  width: 340px;
+  height: 130px;
+  margin: 20px 33px;
+  float: left;
+  text-align: left;
+}
+
+/* line 150, ../sass/screen.scss */
+.menu_active {
+  color: #f6bb43;
+  border-bottom: 3px solid #f6bb43;
+}
+
+/* line 164, ../sass/screen.scss */
+.bg-img-slice {
+  width: 401px;
+  height: 100%;
+  background-color: #e6f4f1;
+  float: right;
+  opacity: 0.4;
+}
+
+/* line 171, ../sass/screen.scss */
+.logo-img-slice {
+  position: relative;
+  /* float: right; */
+  z-index: 99999;
+  left: 50%;
+  text-align: center;
+  line-height: 60px;
+  font-size: 1.3em;
+}
+/* line 180, ../sass/screen.scss */
+.logo-img-slice img {
+  width: 300px;
+  height: auto;
+}
+/* line 185, ../sass/screen.scss */
+.logo-img-slice p {
+  color: #fff;
+  font-family: "Athiti", sans-serif;
+}
+
+/* line 191, ../sass/screen.scss */
+.con_img_box {
+  float: left;
+}
+
+/* line 194, ../sass/screen.scss */
+.txt_product {
+  float: right;
+  position: relative;
+  left: -30px;
+  margin-top: 33px;
+  line-height: 30px;
+  font-size: 1.3em;
+}
+
+/* line 202, ../sass/screen.scss */
+.Addcard {
+  width: 73px;
+  height: 23px;
+  background-color: #f6bb43;
+  margin-left: 60px;
+  border: none;
+  color: white;
+}
+
+/* line 210, ../sass/screen.scss */
+.basket {
+  width: 120px;
+  height: 29px;
+  background-color: #f6bb43;
+  border-radius: 15px 0 0 15px;
+  float: right;
+  text-align: center;
+  font-size: 2.5em;
+  color: #fff;
+  padding: 10px;
+}
+/* line 220, ../sass/screen.scss */
+.basket i {
+  font-size: .7em;
+  float: left;
+  margin-left: 10px;
+}
+/* line 225, ../sass/screen.scss */
+.basket h1 {
+  float: right;
+  margin-top: -10px;
+  margin-right: 10px;
+}

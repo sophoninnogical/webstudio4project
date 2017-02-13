@@ -1,0 +1,230 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import "compass/reset";
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans');
+@import url('https://fonts.googleapis.com/css?family=Athiti');
+
+
+
+$font-family: 'Playfair Display', serif;
+$fother: 'Droid Sans', sans-serif;
+$Fontathii: 'Athiti', sans-serif;
+$bg-header : #f6f7fb;
+$fontSize : 2em;
+$bg_btn:#f6bb43;
+$bg-box:#dfddd6;
+a{
+	text-decoration: none;
+	color:#4c4c4b;
+}
+body{
+	overflow:hidden;
+	font-family: $font-family;
+}
+.head-menu {
+	background-color: $bg-header;
+	width: 100%;
+	height: 49px;
+	float: right;
+	-webkit-box-shadow: -4px 18px 37px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: -4px 18px 37px 1px rgba(0,0,0,0.75);
+	 box-shadow: -4px 18px 37px 1px rgba(0,0,0,0.75);
+	 font-family: $fother;
+}
+
+.logo {
+	width: 70px;
+	height: 100%;
+//	background-color: red;
+	margin-left: 20px;
+	float: left;
+img{
+	width: 100%;
+	}
+}
+
+.title-menu {
+	float: right;
+	margin-top: 12px;
+}
+
+.title-menu a {
+	margin-top: 12px;
+	margin-left: 19px;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+	height: auto;
+}
+
+.bg-container {
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/-pic/1_blomman.jpg");
+	background-size: cover;
+	float: left;
+}
+
+.box-item {
+	width: 412px;
+	height: 620px;
+	background: white;
+	opacity: 0.9;
+	float: left;
+	margin: 50px 140px;
+	overflow: scroll;
+	overflow-x:hidden;
+	text-align: center;
+	h1{
+		font-size: 2em;
+    	margin-top: 20px;
+	}
+	
+}
+
+.box-contact {
+	width: 239px;
+	height: 332px;
+	background: $bg-box;
+	float: left;
+	margin-top: 170px;
+	text-align: center;
+	padding: 28px 45px;
+
+	.choose_festival{
+		width: 240px;
+    border-radius: 5px;
+    height: 30px;
+		float: left;
+		margin-top: 46px;
+	}
+	form {
+		//margin: 30px 50px;
+		width: 240px;
+
+	//	opacity: 1;
+	}
+	.i_txt {  
+	 	 width: 240px;
+	    opacity: 1;
+	    margin-top: 46px;
+	    height: 40px;
+	    font-size: 1em;
+	}
+	h1{
+		font-size:$fontSize;
+	}
+}
+.btn_contact {
+	width: 103px;
+	height: 36px;
+	background: $bg_btn;
+	border-radius: 10px;
+	border:none;
+	margin-top: 30px;
+}
+.btn_contact	:active{
+		background: #bf9134;
+	}
+	.con_box{
+		text-align: center;
+	}
+	.control_box{
+		position: fixed;
+		top:20%;
+		left: 20%;
+	}
+.item-gift{
+	width: 340px;
+	height:130px;
+	//background-color: brown;
+	margin: 20px 33px;
+	float: left;
+	text-align: left;
+}
+.menu_active{
+
+	color: $bg_btn;
+	border-bottom: 3px solid $bg_btn;
+}
+
+// .item-gift:hover {
+//
+// 	width: 100%;
+// 	height: 60%;
+// 	margin-top: 35%;
+// 	cursor: pointer;
+//
+// }
+.bg-img-slice{
+    width: 401px;
+    height: 100%;
+    background-color: #e6f4f1;
+    float: right;
+    opacity: 0.4;
+}
+.logo-img-slice{
+
+    position: relative;
+    /* float: right; */
+    z-index: 99999;
+    left: 50%;
+		text-align: center;
+		line-height: 60px;
+		font-size: 1.3em;
+		img{
+			width:300px;
+			height: auto;
+	
+		}
+		p{
+			color: #fff;
+			font-family: $Fontathii;
+		}
+
+}
+.con_img_box{
+	float: left;
+}
+.txt_product{
+	float: right;
+    position: relative;
+    left: -30px;
+    margin-top: 33px;
+    line-height: 30px;
+    font-size: 1.3em;
+}
+.Addcard{
+	width:73px;
+	height:23px;
+	background-color:$bg_btn;
+    margin-left: 60px;
+    border: none;
+    color: white;
+}
+.basket{
+	width:120px;
+	height:29px;
+	background-color:$bg_btn;
+	border-radius:15px 0 0 15px;
+	float: right;
+	text-align:center;
+	font-size: 2.5em;
+	color:#fff;
+	padding:10px;
+	i{
+		font-size:.7em;
+		float: left;
+		margin-left: 10px;
+	}
+	h1{
+		    float: right;
+   		 margin-top: -10px;
+   		 margin-right: 10px;
+	}
+}
